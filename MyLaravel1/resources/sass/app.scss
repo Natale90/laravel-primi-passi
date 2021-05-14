@@ -1,0 +1,29 @@
+body{
+  background-color: purple;
+  color:white;
+
+  .container{
+    width: 70%;
+    padding: 20px 0;
+    border: 2px solid white;
+    margin: 0 auto;
+    text-align: center;
+
+    p{
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    h3{
+      color: cyan;
+      font-size: 25px;
+      cursor: pointer;
+      transition: 1s
+    }
+
+    h3:hover{
+      font-size: 40px;
+    }
+  }
+
+}
